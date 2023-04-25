@@ -2,32 +2,63 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css "></link>
-        <style>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
             header{
                 color:blueviolet;
                 background-color:bisque;
+                font-family: 'Kanit', sans-serif;
+                padding-top:15px;
+                padding-left:15px;
+            
+            }
+            #username{
+                margin-right:30px;
+            }
+            .link{
+                margin-right:30px;
+            }
+            #logo{
+                margin-right:30px;
+            }
+            nav{
+                padding-bottom: 10px;
+                padding-left:15px;
+            
             }
         </style>
     </head>
    <body>
     <header>
-    <i class="fa fa-user" aria-hidden="true"></i> <span>Puja Tivari</span>
-    &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-phone-square" aria-hidden="true"></i><span>8866 4404 89</span>
-    &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i><span>pujativari@gmail.com</span><br><br></header>
+    <i  class="fa fa-user" aria-hidden="true"></i>
+    <span id="username">Puja Tivari</span>
+    <i class="fa fa-phone-square" aria-hidden="true"></i>
+    <span id="username">8866 4404 89</span>
+    <i class="fa fa-envelope" aria-hidden="true"></i>
+    <span id="username">pujativari@gmail.com</span><br><br>
+    </header><br>
     <nav>
         
-            <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp;
-            <a href="techstack.html" target="frame">TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp;
-            <a href="education.html" target="frame"> EDUCATION </a> &nbsp; &nbsp; &nbsp;
-            <a  href="personal.html" target="frame"> PERSONAL </a> &nbsp; &nbsp; &nbsp;
-            <a href="contactus.html" target="frame"> CONTACT ME </a>
+            <a class="link" href="home.html" target="frame">HOME</a>
+            <a class="link" href="techstack.html" target="frame">TECHNOLOGY STACK</a>
+            <a class="link" href="education.html" target="frame"> EDUCATION </a> 
+            <a class="link" href="personal.html" target="frame"> PERSONAL </a> 
+            <a class="link" href="contactus.html" target="frame"> CONTACT ME </a>
         
     </nav>
-    <iframe width="1000px" height="300px" name="frame" src="home.html"></iframe><br><br>
-    <span>Follow me</span> &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://in.linkedin.com/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+    <iframe width="900px" height="500px" name="frame" src="home.html"></iframe><br><br>
+    <span>Follow me</span>
+     <a id="logo" href="https://in.linkedin.com/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+     <a id="logo" href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+     <a id="logo" href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+     <a id="logo" href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
 
 </body> 
 </html>
